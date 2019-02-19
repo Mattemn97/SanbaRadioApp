@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_diretta"
+            android:title="Ascolta la diretta" />
+        <item
+            android:id="@+id/nav_chi_siamo"
+            android:title="Chi siamo?" />
+    </group>
+    <item
+        android:id="@+id/nav_palinsesto"
+        android:title="Palinsesto"
+        android:menuCategory="secondary"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/nav_palinsesto_lunedi"
+                android:title="Lunedì" />
+            <item
+                android:id="@+id/nav_palinsesto_martedi"
+                android:title="Martedì" />
+            <item
+                android:id="@+id/nav_palinsesto_mercoledi"
+                android:title="Mercoledì" />
+            <item
+                android:id="@+id/nav_palinsesto_giovedi"
+                android:title="Giovedì" />
+            <item
+                android:id="@+id/nav_palinsesto_venerdi"
+                android:title="Venerdì" />
+            <item
+                android:id="@+id/nav_palinsesto_sabato"
+                android:title="Sabato" />
+            <item
+                android:id="@+id/nav_palinsesto_domenica"
+                android:title="Domenica" />
+        </menu>
+    </item>
+</menu>

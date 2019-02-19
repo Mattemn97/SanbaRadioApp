@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Sanbaradio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sanbaradio</string>
+    <string name="nav_header_subtitle">redazione@sanbaradio.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Opzioni</string>
+
+    <string name="chi_siamo">Sanbaradio è uno strumento di comunicazione, un punto di riferimento per l\'informazione per la comunità studentesca e universitaria trentina.
+    "\n"Una radio comunitaria aperta agli stimoli di chiunque abbia voglia di partecipare.
+    "\n"Abbiamo bisogno di voi: se avete delle idee per dei programmi, se pensate di avere qualcosa da dire non dovete far altro che contattarci e ci incontreremo per discutere e farvi partecipi del progetto!
+    </string>
+
+    <string name="palinsesto_table_lunedi">
+        IMPORTXML("http://www.sanbaradio.it/node/14044/view/luned%C3%AC"; "//*[@id="content"]/div[2]/div/div/table/tbody")
+    </string>
+
+    <string name="palinsesto_table_martedi">
+        IMPORTXML("http://www.sanbaradio.it/node/14044/view/marted%C3%AC"; "//*[@id="content"]/div[2]/div/div/table/tbody")
+    </string>
+
+    <string name="palinsesto_table_mercoledi">
+        IMPORTXML("http://www.sanbaradio.it/node/14044/view/mercoled%C3%AC"; "//*[@id="content"]/div[2]/div/div/table/tbody")
+    </string>
+
+    <string name="palinsesto_table_giovedi">
+        IMPORTXML("http://www.sanbaradio.it/node/14044/view/gioved%C3%AC"; "//*[@id="content"]/div[2]/div/div/table/tbody")
+    </string>
+
+    <string name="palinsesto_table_venerdi">
+        IMPORTXML("http://www.sanbaradio.it/node/14044/view/venerd%C3%AC"; "//*[@id="content"]/div[2]/div/div/table/tbody")
+    </string>
+
+    <string name="palinsesto_table_sabato">
+        IMPORTXML("http://www.sanbaradio.it/node/14044/view/sabato"; "//*[@id="content"]/div[2]/div/div/table/tbody")
+    </string>
+
+    <string name="palinsesto_table_domenica">
+        IMPORTXML("http://www.sanbaradio.it/node/14044/view/domenica"; "//*[@id="content"]/div[2]/div/div/table/tbody")
+    </string>
+
+
+</resources>
